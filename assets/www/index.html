@@ -1,0 +1,84 @@
+<html>
+<head>
+	
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/navigation.css" />
+	<!-- 
+	<link rel="stylesheet" href="js/jquery/jquery.mobile-1.0b2.min.css" />
+	<script src="js/jquery/jquery-1.6.2.min.js"></script>
+	<script src="js/jquery/jquery.mobile-1.0b2.min.js"></script>
+	-->
+	<script>	
+		function changeScreen(newScreen) {
+			if (newScreen == "products") {}
+			console.log(newScreen);
+		}
+	</script>
+</head>
+<body>
+	<div id="home">
+		<div id="header">
+			<h1>Product Calculator</h1>
+		</div>
+		<div class="navigation">
+			<div class="row1">
+				<input type="button" value="Parties" onClick="changeScreen(this.value)" style="background: white url('icons/parties.png') no-repeat top;">
+				<input type="button" value="Previous Orders" onClick="changeScreen(this.value)"  style="background: white url('icons/orders.png') no-repeat top;">
+				<input type="button" value="Current Order" onClick="changeScreen(this.value)"  style="background: white url('icons/currentorder.png') no-repeat top;">
+			</div>
+			<div class="row2">
+				<input type="button" value="New Order" onClick="changeScreen(this.value)" style="background: white url('icons/neworder.png') no-repeat top;">
+				<input type="button" value="Products" onClick="changeScreen(this.value)" style="background: white url('icons/products.png') no-repeat top;">
+				<input type="button" value="Settings" onClick="changeScreen(this.value)" style="background: white url('icons/settings.png') no-repeat top;">
+			</div>
+		</div>
+		<div id="footer">
+			<h4>Page Footer</h4>
+		</div>
+	</div>
+<!-- 
+-------------------------------------------------------------
+-----------SETTINGS PAGE-------------------------------------
+-------------------------------------------------------------
+
+	<div  id="settings">
+		<div data-role="header">
+			<h1>Product Calculator -- Settings</h1>
+		</div>
+		<div class="ui-grid-b">
+			<div class="ui-block-a"><input type="button" value="Parties" onClick="changeScreen(this.value)"></div>
+			<div class="ui-block-b"><input type="button" value="Previous Orders" onClick="changeScreen(this.value)"></div>
+			<div class="ui-block-c"><input type="button" value="Current Order" onClick="changeScreen(this.value)"></div>
+		</div>
+		<div class="ui-grid-b">
+			<div class="ui-block-a"><input type="button" value="New Order" onClick="changeScreen(this.value)"></div>
+			<div class="ui-block-b"><input type="button" value="Products" onClick="changeScreen(this.value)"></div>
+			<div class="ui-block-c"><input type="button" value="Settings" onClick="changeScreen(this.value)"></div>
+		</div>
+		<div data-role="footer">
+			<h4>Page Footer</h4>
+		</div>
+	</div>
+ -->
+<!-- 
+-------------------------------------------------------------
+-----------PRODUCTS PAGE-------------------------------------
+-------------------------------------------------------------
+
+ 	<div id="products">
+		<div data-role="header">
+			<h1>Product Calculator -- Products</h1>
+		</div>
+		<ul data-role="listview" data-theme="g">
+			<li><a href="acura.html">Acura</a></li>
+			<li><a href="audi.html">Audi</a></li>
+			<li><a href="bmw.html">BMW</a></li>
+		</ul>	
+		
+		<div data-role="footer">
+			<h4>Page Footer</h4>
+		</div>
+	</div>
+ -->
+</body>
+</html>

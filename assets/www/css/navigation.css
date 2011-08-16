@@ -1,0 +1,48 @@
+div.navigation ul
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;	
+}
+div.navigation li
+{
+	float: left;
+	margin: 0 0.15em;
+}
+
+
+
+div.navigation li a
+{
+	background: #fff bottom left repeat-x;
+	height: 2em;
+	line-height: 2em;
+	float: left;
+	width: 9em;
+	display: block;
+	border: 0.2em solid #dcdce9;
+	color: #0d2474;
+	text-decoration: none;
+	text-align: center;
+
+}
+
+
+div.navigation input
+{
+	width:150px;
+	padding-top:75px;
+	padding-bottom:25px;
+	border: none;
+}
+
+div.row1
+{
+	padding-bottom:50px;
+	
+}
+div.row2
+{
+	
+	
+}
